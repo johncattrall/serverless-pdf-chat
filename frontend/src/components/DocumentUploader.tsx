@@ -55,7 +55,7 @@ const DocumentUploader: React.FC = () => {
 
   return (
     <div>
-      <h2 className="text-2xl font-bold pb-4">Add document</h2>
+      <h2 className="text-2xl font-bold pb-4">Upload PDF for review</h2>
       {inputStatus === "idle" && (
         <div className="flex items-center justify-center w-full">
           <label
