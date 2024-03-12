@@ -52,7 +52,7 @@ const ChatMessages: React.FC<ChatMessagesProps> = ({
             disabled={messageStatus === "loading"}
             type="text"
             id="prompt"
-            value={prompt + "this is the question"}
+            value={prompt + "You are going to assume the role of an AWS solutions architect. You are going to review a document, I would like you to separate the answers to each of these questions stating TRUE or FALSE for each question. Question 1) They are using the latest generation AWS instance types Question 2) The quotation in in USD? Question 3) A definition of done or success criteria exist and are clearly defined"}
             onChange={handlePromptChange}
             onKeyDown={handleKeyPress}
             className={
