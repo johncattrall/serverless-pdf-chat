@@ -52,7 +52,7 @@ const ChatMessages: React.FC<ChatMessagesProps> = ({
             disabled={messageStatus === "loading"}
             type="text"
             id="prompt"
-            value={prompt}
+            value={prompt + "this is the question"}
             onChange={handlePromptChange}
             onKeyDown={handleKeyPress}
             className={
